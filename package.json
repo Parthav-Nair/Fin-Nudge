@@ -1,0 +1,19 @@
+{
+  "name": "fin-nudge",
+  "version": "1.0.0",
+  "description": "Your Mindful Money Companion - A MERN Stack App with AI-Powered Behavioral Nudges",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "npm start --prefix server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
